@@ -112,7 +112,7 @@ login using this account and test payment
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/ajardeen/Hostel-Management-Frontend.git
+   git clone https://github.com/Kopuri-Deekshitha/stayease_frontend.git
    ```
 
 2. **Install Dependencies**:
