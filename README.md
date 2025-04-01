@@ -10,18 +10,18 @@ The Hostel Management System is a comprehensive solution for managing hostel ope
 
 ### Admin
 
-USER: azardevacc@gmail.com  
- PASS: azardev@123
+USER: deekadmin@gmail.com  
+ PASS: dekadmin
 
 ### Staff
 
-USER: suriya@gmail.com  
- PASS: 123
+USER: staff@gmail.com 
+ PASS: staff
 
 ### Resident
 
-USER: 3rdmysteryunknown@gmail.com  
- PASS: 123
+USER: resident1@gmail.com  
+ PASS: 12345678
 
 ### PAYPAL Demo buyer Account
 
@@ -143,31 +143,3 @@ login using this account and test payment
    npm run dev
    ```
 
-5. **Access the System**:
-   Navigate to the local development URL to start using the system.
-
----
-
-## Screenshots
-
-ADMIN
-![Admin Dashboard](/src/assets/Hostel_ScreenShots%207.png)
-![Admin Room](/src/assets/Hostel_ScreenShots%206.png)
-![Admin Account](/src/assets/Hostel_ScreenShots%204.png)
-![Admin Payments](/src/assets/Hostel_ScreenShots%205.png)
-Resident
-![Resident Room](/src/assets/Hostel_ScreenShots%203.png)
-![Resident Issue](/src/assets/Hostel_ScreenShots%202.png)
-![Resident Issue](/src/assets/Hostel_ScreenShots%201.png)
-Staff
-![Staff Maintenace](/src/assets/Hostel_ScreenShots%208.png)
-
-and many more...
-
----
-
-## Contact
-
-For any inquiries or support, please contact:
-
-- **Email**: mnazar87540@gmail.com
