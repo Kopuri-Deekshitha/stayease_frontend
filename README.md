@@ -11,12 +11,12 @@ The Hostel Management System is a comprehensive solution for managing hostel ope
 ### Admin
 
 USER: deekadmin@gmail.com  
- PASS: dekadmin
+ PASS: deekadmin
 
 ### Staff
 
 USER: staff@gmail.com 
- PASS: staff
+PASS: staff
 
 ### Resident
 
