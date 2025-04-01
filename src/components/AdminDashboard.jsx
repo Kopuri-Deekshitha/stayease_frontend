@@ -21,15 +21,31 @@ function AdminDashboard() {
     const fetchDashboardData = async () => {
       try {
         const response = await API.get("/dashboard");
+<<<<<<< HEAD
         setDashboardData(response.data);
         setRevenueData(response.data.revenueData.reveData);
         setExpensesData(response.data.expensesData.expenseData);
       } catch (error) {
         console.log(error);
+=======
+        console.log("API Response:", response.data); // Check if revenueData is present
+  
+        setDashboardData(response.data);
+        setRevenueData(response.data.revenueData?.reveData || []);
+
+        // setRevenueData(response.data.revenueData.reveData); // Ensure response contains reveData
+        setExpensesData(response.data.expensesData.expenseData);
+      } catch (error) {
+        console.log("Error fetching dashboard data:", error);
+>>>>>>> 0683565 (commit with updated files)
       }
     };
     fetchDashboardData();
   }, []);
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 0683565 (commit with updated files)
 
   return (
     <>

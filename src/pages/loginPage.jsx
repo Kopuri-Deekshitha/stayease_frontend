@@ -2,7 +2,11 @@
 
 
 
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
+=======
+import { useState, useEffect } from "react";
+>>>>>>> 0683565 (commit with updated files)
 import registerSideImage1 from "../assets/register-side-image 1.webp";
 import registerSideImage2 from "../assets/register-side-image 2.webp";
 import registerSideImage3 from "../assets/register-side-image 3.avif";
@@ -28,7 +32,11 @@ export default function LoginPage() {
       setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
     }, 5000);
     return () => clearInterval(interval);
+<<<<<<< HEAD
   }, []);
+=======
+  }, [images.length]);
+>>>>>>> 0683565 (commit with updated files)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -143,11 +151,19 @@ export default function LoginPage() {
                     <span
                       className="text-indigo-600 cursor-pointer hover:text-indigo-700"
                       onClick={() => {
+<<<<<<< HEAD
                         navigator.clipboard.writeText("stayease@gmail.com");
                         toast.success("Email copied to clipboard");
                       }}
                     >
                       stayease@gmail.com
+=======
+                        navigator.clipboard.writeText("deekadmin@gmail.com");
+                        toast.success("Email copied to clipboard");
+                      }}
+                    >
+                      deekadmin@gmail.com
+>>>>>>> 0683565 (commit with updated files)
                     </span>
                   </span>
                 </div>
@@ -157,18 +173,30 @@ export default function LoginPage() {
                     <span
                       className="text-indigo-600 cursor-pointer hover:text-indigo-700"
                       onClick={() => {
+<<<<<<< HEAD
                         navigator.clipboard.writeText("admin");
                         toast.success("Password copied to clipboard");
                       }}
                     >
                       admin
+=======
+                        navigator.clipboard.writeText("deekadmin");
+                        toast.success("Password copied to clipboard");
+                      }}
+                    >
+                      deekadmin
+>>>>>>> 0683565 (commit with updated files)
                     </span>
                   </span>
                 </div>
               </div>
 
               <p className="mt-8 text-center text-sm text-gray-600 flex justify-center gap-1">
+<<<<<<< HEAD
                 Don't have an account?{" "}
+=======
+                Don&apos;t have an account?{" "}
+>>>>>>> 0683565 (commit with updated files)
                 <Link to={"/register"}>
                   <span className="text-purple-600 hover:text-purple-500 transition-colors duration-200">
                     Register here
@@ -176,7 +204,11 @@ export default function LoginPage() {
                 </Link>
               </p>
               <div className="text-xs opacity-70 text-center">
+<<<<<<< HEAD
                 Please check readme for demo login credentials in file
+=======
+             
+>>>>>>> 0683565 (commit with updated files)
               </div>
             </div>
           </motion.div>
